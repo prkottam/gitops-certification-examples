@@ -1,0 +1,1 @@
+argocd app create demo --repo https://github.com/prkottam/gitops-certification-examples  --path sync-strategies --sync-policy auto  --dest-namespace default --dest-server https://kubernetes.default.svc
